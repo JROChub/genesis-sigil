@@ -2,44 +2,72 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Genesis Sigil</title>
+    <title>GENESIS SIGIL</title>
+    <meta name="description" content="The beginning of something beyond understanding.">
     <style>
         body {
-            font-family: 'Arial', sans-serif;
-            background-color: #121212;
-            color: #fff;
-            text-align: center;
             margin: 0;
             padding: 0;
+            background: black;
+            color: white;
+            font-family: 'Courier New', monospace;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-image: radial-gradient(circle, #222 0%, #000 100%);
         }
         h1 {
-            margin-top: 50px;
-            font-size: 48px;
+            font-size: 3em;
+            margin-bottom: 0.5em;
+            text-align: center;
+            letter-spacing: 2px;
         }
-        p {
-            font-size: 18px;
-            margin: 20px;
-        }
-        a {
-            color: #66ccff;
+        p, a {
+            font-size: 1.2em;
+            text-align: center;
+            margin: 0.5em;
+            color: #aaa;
             text-decoration: none;
-            font-size: 20px;
         }
-        a:hover {
-            text-decoration: underline;
+        .glitch {
+            color: #0ff;
+            animation: flicker 2s infinite alternate;
+        }
+        @keyframes flicker {
+            from { opacity: 0.8; }
+            to { opacity: 1; }
+        }
+        img {
+            width: 300px;
+            max-width: 80%;
+            margin-top: 20px;
+            border: 2px solid #0ff;
+            border-radius: 8px;
+        }
+        footer {
+            margin-top: 2em;
+            font-size: 0.8em;
+            color: #555;
         }
     </style>
 </head>
 <body>
+    <h1 class="glitch">GENESIS SIGIL</h1>
 
-    <h1>=== GENESIS SIGIL ===</h1>
-    <p><strong>CID:</strong> QmQA2Z214xG2m6LNBpxCDoRvvXeuhBGpbCRV3VNy3NjuVe</p>
-    <p>It began here.</p>
-    <p>What is this? Who created it?</p>
-    <p>What will it unlock?</p>
-    <p><strong>Trace the source, or remain behind forever.</strong></p>
-    <a href="https://ipfs.io/ipfs/QmQA2Z214xG2m6LNBpxCDoRvvXeuhBGpbCRV3VNy3NjuVe" target="_blank">Follow the Pulse</a>
+    <p>CID:</p>
+    <p><code>QmQA2Z214xG2m6LNBpxCDoRvvXeuhBGpbCRV3VNy3NjuVe</code></p>
+
+    <p>It began here.<br>Trace the origin or remain behind.</p>
+
+    <a href="https://ipfs.io/ipfs/QmQA2Z214xG2m6LNBpxCDoRvvXeuhBGpbCRV3VNy3NjuVe" target="_blank">
+        Access Genesis Sigil
+    </a>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Glitch_example.jpg/320px-Glitch_example.jpg" alt="Genesis Sigil">
+
+    <footer>JROC - 2025</footer>
 
 </body>
 </html>
